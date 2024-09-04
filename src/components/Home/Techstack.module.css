@@ -1,0 +1,44 @@
+.techstackContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+  gap: 50px; /* Reduced gap for a more compact layout */
+  padding-top: 70px;
+}
+
+.header {
+  text-align: center;
+  font-size: 2rem; /* Adjust the size as needed */
+  font-weight: bold;
+  margin-bottom: px; /* Adjust spacing below the header */
+  color: #3f3f3f; /* Match with your icon color */
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+
+.techItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 80px; /* Reduced width */
+  height: 80px; /* Reduced height */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.techItem:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 50px; /* Reduced icon size */
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.techItem:hover .icon {
+  color: #0056b3;
+}

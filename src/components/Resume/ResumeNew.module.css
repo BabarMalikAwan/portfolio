@@ -1,0 +1,38 @@
+.resumeSection {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light background for a clean look */
+    padding-top: 150px;
+  }
+  
+  .buttonRow {
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .downloadButton {
+    max-width: 250px;
+    background-color: #6c63ff; /* Professional purple color */
+    border: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadButton:hover {
+    background-color: #5653c1; /* Slightly darker purple on hover */
+  }
+  
+  .resume {
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .document {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
