@@ -3,20 +3,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+  min-height: 100vh;
   background-color: #f4f4f4;
-  padding: 20px; /* Add padding to avoid content touching the edges */
+  padding: 20px;
 }
 
 /* Section styling for content */
 .section {
-  max-width: 900px; /* Adjust the maximum width as needed */
+  max-width: 900px;
   width: 100%;
   padding: 40px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center text inside the section */
+  text-align: center;
 }
 
 /* Title styling */
@@ -35,12 +35,13 @@
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
 }
 
 /* Button styling */
 .tab {
   padding: 12px 24px;
-  margin: 0 8px;
+  margin: 8px;
   font-size: 1rem;
   color: #007bff;
   background-color: #fff;
@@ -90,3 +91,53 @@ p {
   color: #666;
   line-height: 1.6;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .section {
+    padding: 20px;
+  }
+
+  .sectionHeader {
+    font-size: 2rem;
+  }
+
+  .tab {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  .header {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab {
+    width: 100%; /* Make tabs full width on very small screens */
+    margin: 5px 0;
+    padding: 12px;
+  }
+
+  .sectionHeader {
+    font-size: 1.8rem;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .iconImage {
+    width: 80px;
+    height: 80px;
+  }
+}
+
