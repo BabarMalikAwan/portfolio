@@ -1,0 +1,21 @@
+
+# System files
+*.log
+*.lock
+*.ini
+*.dat
+*.tar.gz
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# OS generated files
+.vscode/
+.history/
+.env
+AppData/
+*.zip
+
+# Other files you want to ignore
