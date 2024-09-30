@@ -1,8 +1,0 @@
-# Ignore system files
-AppData/
-NTUSER.DAT*
-.vscode/
-node_modules/
-*.zip
-*.tar.gz
-*.log
