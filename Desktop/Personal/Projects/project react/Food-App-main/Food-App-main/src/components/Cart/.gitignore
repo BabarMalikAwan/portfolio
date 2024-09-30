@@ -1,21 +1,8 @@
-
-# System files
-*.log
-*.lock
-*.ini
-*.dat
-*.tar.gz
-.DS_Store
-Thumbs.db
-
-# Node modules
-node_modules/
-
-# OS generated files
-.vscode/
-.history/
-.env
+# Ignore system files
 AppData/
+NTUSER.DAT*
+.vscode/
+node_modules/
 *.zip
-
-# Other files you want to ignore
+*.tar.gz
+*.log
