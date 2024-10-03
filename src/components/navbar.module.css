@@ -1,0 +1,73 @@
+/* Base styles */
+.navbar {
+  background-color: #929292;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  height: 100px; /* Adjust the initial height of the Navbar */
+}
+
+.sticky {
+  background-color: #929292;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100px; /* Adjust the height when the Navbar is sticky */
+}
+
+.logo {
+  width: 120px; /* Increase the size of the logo */
+  height: auto; /* Maintain the aspect ratio */
+  padding-top: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* Force text color to white */
+  font-weight: 500;
+  padding: 5px 20px;
+  margin: 0 10px;
+  transition: color 0.2s ease;
+}
+
+.navIcon {
+  color: #383838; /* Ensure icon color is white */
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change text color on hover */
+}
+
+
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navItem{
+  color: #f0f1f1;
+  margin-right: 20px;
+}
+
+.navlink {
+  color: #f0f1f1;
+ 
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto; /* Adjust the height for smaller screens */
+  }
+
+  .logo {
+    width: 100px; /* Adjust logo size for smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px; /* Increase padding for better touch targets on mobile */
+    margin: 5px 0; /* Adjust margin for vertical spacing */
+  }
+
+  .navbar-toggler {
+    margin-right: 10px; /* Add some margin to the toggler */
+  }
+}

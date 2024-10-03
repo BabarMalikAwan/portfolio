@@ -1,0 +1,143 @@
+/* Container for centering content horizontally and vertically */
+.serviceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Section styling for content */
+.section {
+  max-width: 900px;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title styling */
+.sectionTitle {
+  margin-bottom: 40px;
+}
+
+.sectionHeader {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 700;
+}
+
+/* Tabs container styling */
+.tabContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+/* Button styling */
+.tab {
+  padding: 12px 24px;
+  margin: 8px;
+  font-size: 1rem;
+  color: #007bff;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tabActive {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.tab:hover {
+  background-color: #e6f0ff;
+}
+
+/* Content styling */
+.tabContent {
+  display: none;
+}
+
+.contentActive {
+  display: block;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+.iconImage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.header {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .section {
+    padding: 20px;
+  }
+
+  .sectionHeader {
+    font-size: 2rem;
+  }
+
+  .tab {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  .header {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab {
+    width: 100%; /* Make tabs full width on very small screens */
+    margin: 5px 0;
+    padding: 12px;
+  }
+
+  .sectionHeader {
+    font-size: 1.8rem;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .iconImage {
+    width: 80px;
+    height: 80px;
+  }
+}
+

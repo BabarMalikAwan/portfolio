@@ -1,0 +1,37 @@
+.footer {
+    background-color: #1f1f1f; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footerCopywright {
+    margin: auto;
+    font-size: 1.1em;
+    color: #bfbfbf; /* Light grey text */
+  }
+  
+  .footerBody {
+    margin: auto;
+  }
+  
+  .footerIcons {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .socialIcons {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .iconLink {
+    color: #bfbfbf; /* Light grey icons */
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+  }
+  
+  .iconLink:hover {
+    color: #007bff; /* Blue on hover */
+  }
+  

@@ -1,0 +1,35 @@
+.projectCardView {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .projectCardView:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .cardTitle {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cardText {
+    color: #555;
+    text-align: justify;
+    font-size: 1rem;
+  }
+  
+  .button {
+    background-color: #007Bff; /* Professional purple color */
+    border: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #5653c1; /* Darker purple on hover */
+  }
+  

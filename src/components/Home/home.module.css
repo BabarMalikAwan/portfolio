@@ -1,0 +1,63 @@
+.homeSection {
+    position: relative;
+    background: #929292; /* Light background color for contrast */
+    padding: 200px 0px 100px ;
+     /* Add padding for spacing */
+  }
+  
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+  
+  .homeContent {
+    max-width: 1200px; /* Limit the width for better readability */
+  }
+  
+  .homeHeader {
+    margin-bottom: 20px;
+  }
+  
+  .greeting {
+    font-size: 2.5rem; /* Larger font size for the greeting */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+  }
+  
+  .wave {
+    font-size: 2.5rem; /* Match the font size of the greeting */
+  }
+  
+  .introduction {
+    font-size: 2rem; /* Slightly smaller than the greeting */
+    color: #555; /* Medium-dark text color */
+  }
+  
+  .name {
+    font-weight: bold; /* Emphasize the name */
+    color: #007bff; /* Primary color for the name */
+  }
+  
+  .typeContainer {
+    padding: 20px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .homeLogo {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Keep width and height the same for a circular shape */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid #f0f0f0; /* Optional: adds a border for a more defined look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for a lifted effect */
+  }
+  
